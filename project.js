@@ -3,22 +3,22 @@ const projects = [
     {
       title: "Image Caption Generator",
       description: "A deep learning-based project that generates captions for images.",
-      link: "Guess_the_number\\index.html"
+      link: "guessnumber.html"
     },
     {
       title: "Portfolio Website",
       description: "A responsive and modern portfolio website showcasing my skills and projects.",
-      link: "Guess_the_number\\index.html"
+      link: "guessnumber.html"
     },
     {
       title: "E-commerce Web Scraper",
       description: "A web scraper built to collect product data from e-commerce sites.",
-      link: "Guess_the_number\\index.html"
+      link: "guessnumber.html"
     },
     {
       title: "Customer Segmentation Tool",
       description: "A machine learning project for segmenting customers based on behavior.",
-      link: "Guess_the_number\\index.html"
+      link: "guessnumber.html"
     }
   ];
   
