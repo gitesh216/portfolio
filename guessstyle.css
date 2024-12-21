@@ -1,0 +1,163 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+  }
+  
+  /* Body styling */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, #1e1e2e, #131324);
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Wrapper container */
+  #wrapper {
+    background: #222436;
+    border: 2px solid #ffde59;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 15px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  /* Game Title */
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #ffde59;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Instructions Paragraph */
+  p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ccc;
+  }
+  
+  /* Input fields styling */
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input.guessField {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border: 2px solid #ffde59;
+    border-radius: 5px;
+    background-color: #33364b;
+    color: #fff;
+    outline: none;
+  }
+  
+  input.guessField:focus {
+    border-color: #ff5733;
+    box-shadow: 0 0 5px #ff5733;
+  }
+  
+  input.guessSubmit {
+    background: #ff5733;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  input.guessSubmit:hover {
+    background: #e64a19;
+  }
+  
+  /* Results section */
+  .resultPass {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #ffde59;
+  }
+  
+  .resultPass p {
+    margin: 8px 0;
+  }
+  
+  /* Highlight for the lowOrHi message */
+  .lowOrHi {
+    font-size: 1.1rem;
+    color: #ff5733;
+    font-weight: bold;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Previous guesses */
+  .guesses {
+    color: #00d9ff;
+    font-weight: bold;
+  }
+  
+  /* Remaining guesses */
+  .lastResult {
+    color: #ff5733;
+    font-weight: bold;
+  }
+  
+  /* Start New Game button */
+  #newGame {
+    background: #28a745; /* Green background */
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Hover effect for Start New Game button */
+  #newGame:hover {
+    background: #218838; /* Darker green */
+    transform: scale(1.05);
+  }
+  
+  /* Active effect for Start New Game button */
+  #newGame:active {
+    transform: scale(1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Focus effect for the Start New Game button */
+  #newGame:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5); /* Green glow */
+  }
+  
