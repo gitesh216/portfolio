@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  background-color: rgb(0, 0, 33);
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: rgb(18, 18, 62);
+  /* color: rgb(153, 153, 226); */
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.contact-section {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: rgb(18, 18, 62);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  color: white;
+}
+
+.contact-section label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  /* color: rgb(153, 153, 226); */
+  color: aliceblue;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(72, 72, 133);
+  background-color: rgb(12, 12, 50);
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-section textarea {
+  resize: none;
+  height: 150px;
+}
+
+.contact-section input::placeholder,
+.contact-section textarea::placeholder {
+  color: rgb(153, 153, 226);
+}
+
+.contact-section button {
+  width: 100%;
+  padding: 10px;
+  background: rgb(153, 153, 226);
+  /* color: rgb(18, 18, 62); */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-section button:hover {
+  background: rgb(170, 170, 240);
+}
+
+#formMessage {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: rgb(170, 107, 228);
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: rgb(18, 18, 62);
+  color: rgb(153, 153, 226);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
